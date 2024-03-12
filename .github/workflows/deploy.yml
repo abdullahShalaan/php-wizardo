@@ -1,6 +1,16 @@
+<<<<<<< HEAD
 name: Remote SSH
 on: [push]
 
+=======
+name: Remote SSH  push:
+
+  on:
+    push:
+      branches:
+         master
+  
+>>>>>>> master
 jobs:
 
   build:
