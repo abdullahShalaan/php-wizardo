@@ -1,4 +1,5 @@
-name: Remote SSH
+name: Remote SSH  push:
+branches: master
 on: [push]
 jobs:
 
